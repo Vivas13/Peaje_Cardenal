@@ -93,5 +93,5 @@ salida.innerHTML +=`<p> Codigo ${cliente5.codigo}, Tipo de copia: ${cliente5.tCo
 salida.innerHTML +=`<p> Codigo ${cliente6.codigo}, Tipo de copia: ${cliente6.tCopia}, Cantidad copias: ${cliente6.cantCop}, Paga: $${cliente6.pagoCop()}</p>`
 salida.innerHTML += `<p> Total recaudado= ${empresa.totalDia()}</p>`
 salida.innerHTML += `<p> Fotocopias tipo carta= ${empresa.cntTotalDiaCarta()}, fotocopias tipo oficio: ${empresa.cntTotalDiaOfic()}</p>`
-salida.innerHTML += `<p> Nombre del ganador= ${empresa.mayorPago()}, con un total de: ${empresa.acpagoOf}</p>`
+
 salida.innerHTML += `<p> Mayor pago= ${empresa.mayorPago()}, con un total de: ${empresa.acpagoCart}</p>`
